@@ -3,12 +3,12 @@ name: CI pipeline
 on:
   push:
     branches: [ main ]
-
+    
 jobs:
   build:
     runs-on: ubuntu-lastest
-  
-  steps:
+    
+    steps:
     - name: Checkout code
       uses: actions/checkout@v5
 
