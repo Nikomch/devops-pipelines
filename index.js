@@ -1,0 +1,1 @@
+console.log('hi, ci/cd with github actions');
